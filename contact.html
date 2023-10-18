@@ -51,7 +51,7 @@
                   <a class="nav-link" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="comment.html"> Comment</a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="products.html">Products <span class="sr-only">(current)</span></a>
@@ -76,8 +76,43 @@
     </header>
     <!-- end header section -->
   </div>
-
-  <!-- contact section -->
+<!-- **********************About Section******************* -->
+  <section class="about_section layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <div class="detail-box pr-md-2">
+            <div class="heading_container">
+              <h2 class="">
+                <span style="color: goldenrod;">About Us</span>
+              </h2>
+            </div>
+            <p class="detail_p_mt">
+              This website has made by one of the students of Computer Science & Technology in Sana'a Univerity. 
+              The website name is <b>Appro Store</b>. <br> Appro Store is a website that helps many people to order what they
+              want easily. Appro store contains of four pages. The first Page is the general which contains the general
+               description of the web.The second page is called Products which contains of the services and products that 
+               the website was made for. The third Page is calle Contact which enable the users of our websites to contact with us 
+             . The last page guides the user to the website and provide a short information of the designers.
+              <br>
+              Now it is the time to provide myself to you:<br>
+              My name is <b>Ahmed Aref Al-Aini</b> from Yemen, my age is 20 years old. I born in a 
+              small village from the villages of Khwlan. I study Information Systems in <em>Sana'a University </em> 
+              , I am about to finish the first term of second year. My ambition is tGo found a company which provides services which 
+              is considered as an enemy for <b> Google</b> and <b>Facebook</b>. It is not an imagination it is the relaity that will come someday.
+              </p>
+           
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="img-box ">
+            <img src="images/كلية-الحاسوب.jpg" class="box_img" alt="about img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- **********************contact section************************************ -->
   <section class="contact_section ">
     <div class="container-fluid">
 
@@ -90,51 +125,58 @@
         <div class="col-md-5 mx-auto">
           <div class="form_container">
             <div class="heading_container heading_center">
-              <h2>Get In Touch</h2>
+              <h2> <span style="color: goldenrod;">Contact US </span></h2>
             </div>
             <form action="">
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="form-control" placeholder="Your Name" />
+                  <input type="text" class="form-control" placeholder="Your Name" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" />
+                  <input type="number" class="form-control" placeholder="Phone Number" req/>
                 </div>
                 <div class="form-group col-lg-6">
-                  <select name="" id="" class="form-control wide">
-                    <option value="">Select Service</option>
-                    <option value="">Weapons</option>
-                    <option value="">Furniture </option>
-                    <option value="">Phones</option>
-                  </select>
+                  <input type="text"  class="form-control wide" autofocus placeholder="location">
                 </div>
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="date" class="form-control"/>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input list="programming" name="prog">
+                    <datalist id="programming">
+                        <option value="Weapons">
+                        <option value="Furniture">
+                        <option value="Phones" selected>
+                        
+            
+                    </datalist>      
+                  </div>
               </div>
-              <div class="form-row">
+              <div class="form-row" style="display: block;">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" />
+                  <input type="email" class="form-control" placeholder="Email" autocomplete="on" required/>
                 </div>
               </div>
-              <div class="form-row">
-                <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Message" />
-                </div>
-              </div>
-              <div class="btn_box">
-                <button>
+            <div>
+
+              <div class="btn_box" >
+                <button onclick="alert('Tanks for communication')">
                   SEND
                 </button>
               </div>
+            </div>
             </form>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- end contact section -->
-
   
+  <!-- end contact section -->
+ 
   <!-- end info_section -->
 
   <!-- footer section -->

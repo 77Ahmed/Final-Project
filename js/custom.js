@@ -1,5 +1,70 @@
 // to get current year
-function getYear() {
+// to increase the value of like button
+function incrementButton(){
+    var element = document.getElementById('like')
+    var value= element.innerHTML;
+  
+    ++value;
+    console.log(value)
+    document.getElementById('like').innerHTML = value;
+}
+
+function incrementButton2(){
+    var element = document.getElementById('like2')
+    var value= element.innerHTML;
+  
+    ++value;
+    console.log(value)
+    document.getElementById('like2').innerHTML = value;
+}
+function incrementButton3(){
+    var element = document.getElementById('like3')
+    var value= element.innerHTML;
+  
+    ++value;
+    console.log(value)
+    document.getElementById('like3').innerHTML = value;
+}
+
+function incrementButton4(){
+    var element = document.getElementById('like4')
+    var value= element.innerHTML;
+  
+    ++value;
+    console.log(value)
+    document.getElementById('like4').innerHTML = value;
+}
+
+function incrementButton5(){
+    var element = document.getElementById('like5')
+    var value= element.innerHTML;
+  
+    ++value;
+    console.log(value)
+    document.getElementById('like5').innerHTML = value;
+}
+
+function incrementButton6(){
+    var element = document.getElementById('like6')
+    var value= element.innerHTML;
+  
+    ++value;
+    console.log(value)
+    document.getElementById('like6').innerHTML = value;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*function getYear() {
     var currentDate = new Date();
     var currentYear = currentDate.getFullYear();
     document.querySelector("#displayYear").innerHTML = currentYear;

@@ -50,7 +50,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #2c7873;
+  color:  rgb(21, 66, 37);
 }
 
 .heading_container.heading_center {
@@ -182,7 +182,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  color: #2c7873;
+  color:  goldenrod;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -194,7 +194,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #2c7873;
+  color:  goldenrod;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -281,7 +281,7 @@ a:focus {
           transform: none;
 }
 
-/*end header section************************/
+/************************end header section************************/
 /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
@@ -337,7 +337,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #2c7873;
+  background-color:  rgb(21, 66, 37);
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
@@ -366,13 +366,14 @@ a:focus {
   height: 50px;
 }
 
-.slider_section .carousel_btn-box a {
+
+.slider_section .carousel_btn-box a {     /*top Icons*/
   top: 50%;
   width: 50px;
   height: 50px;
-  background-color: #ffffff;
+  background-color:rgb(21, 66, 37);
   opacity: 1;
-  color: #004445;
+  color: white;
   font-size: 14px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
@@ -381,7 +382,7 @@ a:focus {
 }
 
 .slider_section .carousel_btn-box a:hover {
-  background-color: #2c7873;
+  background-color:  goldenrod;
   color: #ffffff;
 }
 
@@ -422,7 +423,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #2c7873;
+  background-color: rgb(21, 66, 37);
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
@@ -494,6 +495,7 @@ a:focus {
   background-color: #0c0c0c;
   color:#159ec0;
 }
+/********************* Contact Section*************/
 .contact_section {
   position: relative;
   background-color: #f9f9f9;
@@ -512,6 +514,7 @@ a:focus {
 
 .contact_section .form_container {
   padding: 45px;
+  margin-top: 80px;
 }
 
 .contact_section .form_container .form-control {
@@ -554,8 +557,8 @@ a:focus {
 }
 
 .contact_section .form_container .btn_box button {
-  border: none;
-  display: inline-block;
+
+  display:block;
   padding: 12px 55px;
   background-color: #2c7873;
   color: #ffffff;
@@ -564,6 +567,9 @@ a:focus {
   transition: all .3s;
   border: 1px solid #2c7873;
   width: 100%;
+  margin-top: 70px;
+  margin-right: 150px;
+  border-radius: 10px;
 }
 
 .contact_section .form_container .btn_box button:hover {
@@ -578,7 +584,7 @@ a:focus {
 .contact_section .img-box img {
   min-width: 100%;
 }
-
+      /************************ Comments of clients*******************/
 .client_section .client_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,7 +628,21 @@ a:focus {
   margin-top: 25px;
   color: #1eb36a;
   font-size: 28px;
+  margin-left: 40%;
+  display: flex;
+
 }
+
+  .client_section .client_container .detail-box span .thu_up :hover{
+    color: goldenrod;
+   }
+   .client_section .client_container .detail-box span .thu_down :hover{
+     color: goldenrod
+    }
+
+
+ 
+
 
 .client_section .carousel-control-prev,
 .client_section .carousel-control-next {
@@ -654,18 +674,7 @@ a:focus {
           justify-content: center;
 }
 
-/* footer section*/
-.footer_section {
-  position: relative;
-  background-color: #ffffff;
-  text-align: center;
-}
 
-.footer_section p {
-  color: #e8e8e8;
-  padding: 25px 0;
-  margin: 0;
-}
 
 
 /*# sourceMappingURL=style.css.map */
@@ -749,7 +758,7 @@ a:focus {
 
 .packges .packges_box .packges_card:hover {
   cursor: pointer;
-  background: #33313b;
+  background: rgb(21, 66, 37);
 }
 
 .packges .packges_box .packges_card .packges_image {
@@ -823,4 +832,22 @@ a:focus {
 
 .packges .packges_box .packges_card:hover .packges_text .p_btn {
   color: white;
+}
+.show-number {
+  display: inline;
+}
+/*********************footer*****************************/
+.footer_section {
+  position: relative;
+  text-align: center;
+}
+
+.footer_section p {
+  color: #f9f9f9;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.footer_section p a {
+  color: inherit;
 }

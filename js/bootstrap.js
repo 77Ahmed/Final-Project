@@ -4396,7 +4396,20 @@
     $.fn[NAME$a] = JQUERY_NO_CONFLICT$a;
     return Toast._jQueryInterface;
   };
-
+  function incrementLikes() {
+    // Get the like count element
+    var likeCountElement = document.getElementById("likeCount");
+    
+    // Increment the like count
+    var currentLikes = parseInt(likeCountElement.textContent);
+    var newLikes = currentLikes + 1;
+    
+    // Update the like count element
+    likeCountElement.textContent = newLikes;
+    
+    // Show the number "1" by adding the CSS class
+    likeCountElement.classList.add("show-number");
+  }
   /**
    * --------------------------------------------------------------------------
    * Bootstrap (v4.3.1): index.js
